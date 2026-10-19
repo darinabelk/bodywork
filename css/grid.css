@@ -1,0 +1,159 @@
+
+.header {
+	z-index: 10;
+	display: flex;
+	width: 100%;
+	background-color: #B17366;
+	justify-content: center;
+	height: 106px;
+	position: fixed;
+}
+
+.header1 {
+	width: 1300px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.s {
+	display: flex;
+	justify-content: space-between;
+	width: 310px;
+	height: 90px;
+}
+
+.icon {
+	height: 80%;
+	width: 80%;
+}
+
+.lbutton {
+	width: 90px; 
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header2 {
+	height: 106px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #E8D2CB;
+	height: 1768px;
+}
+
+.content1 {
+	width: 1300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content2 {
+	font-family: "Roboto Flex";
+	font-weight: normal;
+	width: 100%;
+	color: black;
+	font-size: 48px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #B17366;
+	height: 168px;
+}
+
+.footer1 {
+	width: 1080px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer2 {
+	width: 100%;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: "Roboto Flex";
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+}
+
+.trener {
+	border: 5px solid white;
+	width: 100%;
+	height: 100%;
+}
+
+.trener2 {
+	width: 100%;
+	background-color: white;
+	height: 45px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.text {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: "Roboto Flex";
+	font-size: 27px;
+	font-weight: normal;
+	color: black;
+	margin-left: 10px;
+}
+
+.text1 {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: "Roboto Flex";
+	font-size: 24px;
+	font-weight: normal;
+	color: black;
+	margin-left: 10px;
+}
+
+.trener3 {
+	width: 100%;
+	height: 104px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.grid {
+	margin-top: 74px;
+	display: grid;
+	grid-template-columns: repeat(3, 420px);
+	grid-template-rows: repeat(3, 462px);
+	gap: 56px 20px;
+}
+
+.trener1 {
+	width: 100%;
+	height: 303px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

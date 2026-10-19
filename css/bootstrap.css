@@ -1,0 +1,141 @@
+body {
+	font-family: "Roboto Flex", sans-serif;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
+	margin: 0;
+}
+.content {
+	background-color: #E8D2CB;
+}
+.header {
+	background-color: #B17366;
+}
+.row {
+	align-items: center;
+}
+
+.logo {
+	padding-top: 13px;
+	padding-left: 315px;
+	margin-bottom: 13px;
+}
+
+.h1 {
+	font-family: "Roboto Flex";
+	font-weight: normal;
+	width: 100%;
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 58px;
+}
+.con {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	padding-top: 68px;
+}
+.border123 {
+	width: 1080px;
+	height: 792px;
+	border: 2px solid #fff;
+	margin-bottom: 163px;
+}
+.form-floating {
+	width: 860px;
+	background-color: #fff;
+	opacity: 0.7;
+	margin-left: 116px;
+	margin-top: 94px;
+}
+.con_but {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.but {
+	width: 420px;
+	height: 74px;
+	border-radius: 29px;
+	background: none;
+	border: 2px solid #000;
+	color: #35A2B4;
+	font-size: 27px;
+	margin-top: 115px;
+	transition: 0.3s;
+}
+.but:hover {
+	background-color: #fff;
+	border: 2px solid #35A2B4;
+}
+.but:active {
+	background-color: #000;
+	border: 2px solid #000;
+}
+.footer123 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #B17366;
+	height: 100%;
+}
+.footer2 {
+	width: 1080px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer3 {
+	width: 100%;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: "Roboto Flex";
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+}
+.uspech {
+	width: 992px;
+	height: 590px;
+	border: 4px solid #000;
+	background-color: #E8D2CB;
+}
+
+.bord_modal {
+	width: 595px;
+	height: 282px;
+	border: 2px solid #000;
+	margin-left: 199px;
+}
+.foto_logo {
+	padding-left: 282px;
+	padding-top: 98px;
+}
+.t1 {
+	text-align: center;
+	font-size: 30px;
+	color: #35A2B4;
+	padding-top: 80px;
+}
+.t2 {
+	text-align: center;
+	font-size: 30px;
+	color: #35A2B4;
+}
+.close2 {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	border: none;
+	background: none;
+	font-size: 40px;
+	transition: 0.3s;
+	opacity: 0.6;
+}
+.close2:hover {
+	opacity: 1;
+}
